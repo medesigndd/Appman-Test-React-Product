@@ -2,23 +2,12 @@ import React, { Component } from 'react'
 import { connect } from 'react-redux'
 //import { addShipping } from './actions/cartActions'
 class Recipe extends Component{
-    
-
-    handleChecked = (e)=>{
-        if(e.target.checked){
-            this.props.addShipping();
-        }
-        else{
-            this.props.substractShipping();
-        }
-    }
 
     render(){
   
         return(
             <div className="container">
-                
-                    
+
                  </div>
         )
     }
